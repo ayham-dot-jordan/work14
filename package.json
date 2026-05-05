@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ayham-dot-jordan/work14/issues"
   },
-  "homepage": "https://github.com/ayham-dot-jordan/work14#readme"
+  "homepage": "https://github.com/ayham-dot-jordan/work14#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
