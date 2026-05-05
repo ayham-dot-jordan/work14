@@ -1,12 +1,11 @@
 const express = require("express");
+require("./config/db");
 
 const app = express();
 const PORT = 5000;
 
-// middleware
 app.use(express.json());
 
-// test route
 app.get("/", (req, res) => {
   res.send("Server is running...");
 });
