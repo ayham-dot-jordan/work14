@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 require("./config/db");
 
@@ -6,7 +8,7 @@ const auth = require("./middleware/auth");
 const checkRole = require("./middleware/role");
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 
